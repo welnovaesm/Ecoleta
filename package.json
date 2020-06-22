@@ -2,7 +2,7 @@
   "name": "Ecoleta",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +11,13 @@
     "url": "git+https://github.com/WjCK/Ecoleta.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Welder Novaes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WjCK/Ecoleta/issues"
   },
-  "homepage": "https://github.com/WjCK/Ecoleta#readme"
+  "homepage": "https://github.com/WjCK/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
