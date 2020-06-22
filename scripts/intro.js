@@ -42,9 +42,24 @@
 
 // Funções - Funcionalides - Atalhos - Reuso de código
 
-// // registrar função
-// function sayMyName(name) {
-  
+// // ryName("Douglas")
+// sayMyName("Valeska")
+// sayMyName("Kyam")
+
+// condicionais
+
+// const notaFinal = 7
+
+// if( notaFinal < 5 ) {
+//   document.write("Reprovado")
+// } else {
+//   document.write("Aprovado")
+// }
+
+// loop repetições
+// for (i = 0; i < 10; i++) {
+//   document.write(`<p>${i}</p>`)
+// }
 //   document.write(name)
 // }
 
