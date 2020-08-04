@@ -43,9 +43,14 @@ document
 
 
 //Itens de coleta
-const itemsToCollect = document.querySelector(".items-grid li")
+const itemsToCollect = document.querySelectorAll(".items-grid li")
+
+for (const item of itemsToCollect){
+    item .addEventListener("click", handleSelectedItem)
+}
 
 const collectedItems = document.querySelector("input[name=items]")
+
 let selectedItems = []
 
 function handleSelectedItem(event) {
@@ -74,6 +79,3 @@ function handleSelectedItem(event) {
     collectedItems.value = selectedItems
 }
 
-for (const item of itemsToCollect){
-    item .addEventListener("click", handleSelectedItem)
-}
